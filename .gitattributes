@@ -1,0 +1,2 @@
+input/predict-energy-behavior-of-prosumers/forecast_weather.csv filter=lfs diff=lfs merge=lfs -text
+input/predict-energy-behavior-of-prosumers/historical_weather.csv filter=lfs diff=lfs merge=lfs -text
