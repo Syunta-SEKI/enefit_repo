@@ -1,0 +1,17 @@
+name: My Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Use Kaggle API Token
+        env:
+          KAGGLE_USERNAME: "syuntaseki"
+          KAGGLE_KEY: "349e508624a48b4648972ecfce0c5b52"
+        run: |
+          # ここでKaggle API Tokenを使用するコマンドを実行する
