@@ -39,6 +39,6 @@ jobs:
           kernel_type: notebook
           
           is_private: false
-          # ex: petfinder-adoption-prediction
+          
           competition_sources: |
             predict-energy-behavior-of-prosumers
