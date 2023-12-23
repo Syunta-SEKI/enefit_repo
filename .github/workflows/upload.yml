@@ -37,7 +37,7 @@ jobs:
           code_file: ./build/script.py
           language: python
           kernel_type: notebook
-          # Do not share high-scoring kernels.
+          
           is_private: false
           # ex: petfinder-adoption-prediction
           competition_sources: |
