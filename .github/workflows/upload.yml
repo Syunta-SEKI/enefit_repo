@@ -31,7 +31,7 @@ jobs:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         with:
           # README.md says the slug is required, but it's the id
-          # https://github.com/harupy/push-kaggle-kernel/commit/266039f1ade2701a789e2c9b1e6cc360659edeff
+
           id: syuntaseki/enefit_submission
           title: enefit_submission
           code_file: ./build/script.py
